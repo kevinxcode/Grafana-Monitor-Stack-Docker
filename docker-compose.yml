@@ -83,3 +83,6 @@ volumes:
 networks:
   monitor-net:
     driver: bridge
+
+  # sudo chown -R 472:472 ./grafana-storage
+
